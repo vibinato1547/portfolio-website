@@ -1,0 +1,19 @@
+
+body{
+        background-color: rgb(0, 0, 0)
+        
+    }
+    h1{
+        color: rgb(142, 191, 240);
+    }
+    h2{
+        color: rgb(142, 191, 240);
+    }
+    p{
+        color:rgb(142, 191, 240);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    a{
+        color:rgb(142, 191, 240);
+        font-family: sans-serif;
+    }
