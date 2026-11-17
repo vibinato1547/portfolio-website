@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <title>Client Work</title>
+<head>
+    <title>Concert Videography</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style-sheet.css">
+    <style>
+        .tiers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .tier {
+            padding: 0 1rem;
+        }
+        @media (max-width: 700px) {
+            .tiers {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
     <body>
-        <a href="home-page.html">Back</a>
-        <h1>Client Work</h1>
-       
-            <h2>Event videography</h2>
-            <img src="concert still 3.png">
-            <p>Looking for a videographer for your gigs and events? Having promoted music events myself I know what the demands are, and realise that everyone has different needs and budgets. This is why I offer three different packages, all including filming, editing, colour grading and after-effects. </p> 
-	        <p>Tier 1:  Instagram reels package. 3 reels to match the vibe of your social media posts. Includes editing, colour grading and after effects. </p>
-	        <p>Tier 2: Highlights package: If you'd like to showcase your event on Youtube, I can make a stylish 5 minute video of your event. Ideal for start-up club nights and DJ sets. Also includes optimisation for Instagram. </p>
-            <a href="https://www.youtube.com/watch?v=cKAryPWPwn0"> Here is an example. </a>
-	        <p>Tier 3: The full event. A full concert film of your event. Recommended for concerts and larger events/festivals. </p>
-             <p></p>
-            <p>For more information and rates feel free to enquire to ernest.nabialek@proton.me. Don't have the budget for a videographer but have a cool event you'd like to talk about? Get in touch and we can take it from here. </p>
-            <h2>Educational Content</h2>
-            <p>For 3 years I worked full time as a content producer, making educational and marketing videos for the Royal College of Surgeons. I'd love to apply that expertise by making similar content on a freelance basis. </p>
-            <h2>Commercials</h2>
-     
-        <p></p>
+        <a href="home-page.html" class="no-margin">Back</a>
+        <h1>Concert Videography</h1>
+
+        <img src="concert still 3.png">
+        <p>Looking for a videographer for your gigs and events? Having promoted music events myself I know what the demands are, and realise that everyone has different needs and budgets. This is why I offer three different packages, all including filming, editing, colour grading and after-effects. </p>
+
+        <div class="tiers">
+            <div class="tier">
+                <h2>Tier 1:</h2>
+                <p>Instagram reels package. 3 reels to match the vibe of your social media posts. Includes editing, colour grading and after effects. </p>
+            </div>
+            <div class="tier">
+                    <div class="video">
+                        <iframe
+                        src="https://youtube.com/embed/otUAGpvjB5E"
+                        title="Tier 2 example: Highlights"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        </iframe>
+                     </div>
+
+                <h2>Tier 2:</h2>
+                <p>Highlights package: If you'd like to showcase your event on Youtube, I can make a stylish 5 minute video of your event. Ideal for start-up club nights and DJ sets. Also includes optimisation for Instagram. </p>
+
+            </div>
+            <div class="tier">
+                    <div class="video">
+                        <iframe
+                        src="https://youtube.com/embed/DMXO-r-lnC8"
+                        title="Tier 2 example: Highlights"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        </iframe>
+                     </div>
+                <h2>Tier 3:</h2>
+                <p>The full event. A full concert film of your event. Recommended for concerts and larger events/festivals. </p>
+            </div>
+        </div>
+
         <p>If you'd like to get in touch about a project, please contact ernest.nabialek@proton.me</p>
-       <a href="about.html"> About me </a>
+        <a href="about.html"> About me </a>
 
     </body>
 </html>
